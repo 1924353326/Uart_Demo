@@ -1,0 +1,36 @@
+# ---- Vivado 生成/临时文件（可重新生成，不进仓库）----
+/project_1.cache/
+/project_1.hw/
+/project_1.ip_user_files/
+/project_1.runs/
+/project_1.sim/
+/project_1.ioplanning/
+
+# Vivado 日志与中间产物
+*.jou
+*.log
+*.str
+*.dcp
+*.bit
+*.ltx
+*.rpt
+*.bld
+*.wdb
+*.pb
+.Xil/
+xsim.dir/
+webtalk*.log
+usage_statistics_webtalk.*
+
+# 仿真波形
+*.wcfg
+*.vcd
+
+# 工具/系统垃圾
+.workbuddy/
+Thumbs.db
+desktop.ini
+*~
+*.bak
+
+# ---- 保留：project_1.xpr（工程文件）+ project_1.srcs（源码与约束）----
